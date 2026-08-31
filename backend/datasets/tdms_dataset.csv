@@ -1,0 +1,101 @@
+Source_System,Task_ID,Asset_ID,City,Track_Section,Asset_Type,Asset_Condition,Health_Score,Issue_Type,Severity,Last_Maintenance_Date,Next_Due_Date,Estimated_Duration_Minutes,Maintenance_Status,Asset_Criticality,Safety_Impact,Location_KM,Recent_Fault_Count,Failure_History_Count,Work_Order_ID,Fault_Status,Power_Shutdown_Required
+TDMS,TDMS-0001,OHE-0001,Khadki,Pune Jn-Shivajinagar,OHE,Good,80,Section Insulator Damage,High,2026-07-24,2026-08-08,60,Scheduled,High,Medium,73.9,0,6,TDMS-WO-0001,Normal,Yes
+TDMS,TDMS-0002,OHE-0002,Loni,Dehu Road-Talegaon,Feeder,Excellent,99,Feeder Fault,Critical,2026-07-28,2026-08-30,93,In Progress,High,Medium,31.7,3,6,TDMS-WO-0002,Normal,Yes
+TDMS,TDMS-0003,OHE-0003,Dehu Road,Shivajinagar-Khadki,Feeder,Poor,30,Insulator Fault,Medium,2026-07-08,2026-08-22,109,In Progress,Critical,Medium,89.0,3,8,TDMS-WO-0003,Normal,No
+TDMS,TDMS-0004,OHE-0004,Khadki,Manjari-Loni,Transformer,Poor,52,Section Insulator Damage,Medium,2026-07-08,2026-09-16,226,Pending,High,High,59.4,1,2,TDMS-WO-0004,Normal,No
+TDMS,TDMS-0005,OHE-0005,Shivajinagar,Dehu Road-Talegaon,Transformer,Poor,43,Pantograph Interaction Issue,Medium,2026-07-06,2026-09-03,175,Pending,Critical,Medium,12.6,0,3,TDMS-WO-0005,Warning,Yes
+TDMS,TDMS-0006,OHE-0006,Loni,Manjari-Loni,Section Insulator,Poor,33,Pantograph Interaction Issue,High,2026-07-26,2026-09-25,102,Scheduled,High,High,14.4,0,2,TDMS-WO-0006,Normal,No
+TDMS,TDMS-0007,OHE-0007,Pune Jn,Dapodi-Kasarwadi,OHE,Fair,61,Pantograph Interaction Issue,High,2026-07-01,2026-08-17,97,Pending,Critical,High,69.3,0,3,TDMS-WO-0007,Active Fault,Yes
+TDMS,TDMS-0008,OHE-0008,Talegaon,Akurdi-Dehu Road,Feeder,Fair,66,Contact Wire Damage,Low,2026-07-26,2026-08-16,105,Scheduled,Medium,High,17.3,3,1,TDMS-WO-0008,Normal,Yes
+TDMS,TDMS-0009,OHE-0009,Akurdi,Khadki-Dapodi,Traction Substation,Good,79,Section Insulator Damage,Low,2026-07-22,2026-08-29,164,Pending,High,Medium,50.7,0,0,TDMS-WO-0009,Warning,No
+TDMS,TDMS-0010,OHE-0010,Chinchwad,Ghorpuri-Hadapsar,OHE,Good,76,OHE Wire Wear,High,2026-07-21,2026-10-03,68,Pending,High,Medium,99.2,6,11,TDMS-WO-0010,Normal,Yes
+TDMS,TDMS-0011,OHE-0011,Ghorpuri,Shivajinagar-Khadki,Transformer,Poor,46,Contact Wire Damage,Low,2026-07-31,2026-08-17,212,Pending,High,High,0.4,1,0,TDMS-WO-0011,Warning,Yes
+TDMS,TDMS-0012,OHE-0012,Vadgaon,Loni-Uruli,Section Insulator,Fair,68,Contact Wire Damage,High,2026-07-24,2026-09-29,71,Scheduled,High,High,1.7,4,10,TDMS-WO-0012,Warning,Yes
+TDMS,TDMS-0013,OHE-0013,Loni,Chinchwad-Akurdi,Feeder,Fair,57,Contact Wire Damage,Medium,2026-08-02,2026-09-27,123,Pending,Critical,High,99.3,4,0,TDMS-WO-0013,Normal,Yes
+TDMS,TDMS-0014,OHE-0014,Vadgaon,Pune Jn Yard,Feeder,Poor,37,OHE Wire Wear,Low,2026-08-04,2026-09-05,178,Pending,Critical,High,58.5,3,9,TDMS-WO-0014,Active Fault,No
+TDMS,TDMS-0015,OHE-0015,Chinchwad,Ghorpuri-Hadapsar,Feeder,Fair,59,OHE Wire Wear,Critical,2026-08-11,2026-10-11,143,Pending,Medium,High,12.7,6,3,TDMS-WO-0015,Normal,No
+TDMS,TDMS-0016,OHE-0016,Ghorpuri,Dehu Road-Talegaon,Feeder,Fair,68,Transformer Overheating,Medium,2026-08-05,2026-10-09,131,Pending,High,Medium,89.7,0,6,TDMS-WO-0016,Normal,Yes
+TDMS,TDMS-0017,OHE-0017,Dehu Road,Manjari-Loni,Transformer,Fair,69,Section Insulator Damage,Medium,2026-07-24,2026-08-10,185,Pending,High,High,88.0,1,3,TDMS-WO-0017,Warning,Yes
+TDMS,TDMS-0018,OHE-0018,Fursungi,Khadki-Dapodi,OHE,Good,85,OHE Wire Wear,Medium,2026-07-23,2026-08-13,130,Scheduled,Medium,Low,53.6,1,5,TDMS-WO-0018,Active Fault,No
+TDMS,TDMS-0019,OHE-0019,Dapodi,Pune Jn-Ghorpuri,Section Insulator,Excellent,100,Insulator Fault,Low,2026-07-11,2026-09-03,75,Pending,Medium,High,62.2,0,5,TDMS-WO-0019,Normal,Yes
+TDMS,TDMS-0020,OHE-0020,Hadapsar,Kasarwadi-Chinchwad,Transformer,Fair,70,Pantograph Interaction Issue,Low,2026-07-27,2026-10-09,196,Scheduled,Low,High,27.3,2,6,TDMS-WO-0020,Normal,No
+TDMS,TDMS-0021,OHE-0021,Dapodi,Shivajinagar-Khadki,Transformer,Good,79,Section Insulator Damage,Low,2026-07-07,2026-07-23,224,In Progress,High,High,5.1,2,4,TDMS-WO-0021,Active Fault,No
+TDMS,TDMS-0022,OHE-0022,Kasarwadi,Loni-Uruli,Traction Substation,Fair,57,Transformer Overheating,Medium,2026-08-11,2026-10-04,188,Pending,High,Medium,59.5,5,6,TDMS-WO-0022,Warning,Yes
+TDMS,TDMS-0023,OHE-0023,Uruli,Fursungi-Manjari,OHE,Poor,45,Feeder Fault,Low,2026-08-08,2026-08-31,100,Pending,Critical,Low,29.5,2,9,TDMS-WO-0023,Active Fault,No
+TDMS,TDMS-0024,OHE-0024,Pune Jn,Dapodi-Kasarwadi,Section Insulator,Good,88,Transformer Overheating,High,2026-07-06,2026-08-29,68,Scheduled,High,High,66.4,6,5,TDMS-WO-0024,Normal,Yes
+TDMS,TDMS-0025,OHE-0025,Loni,Pune Jn-Shivajinagar,Feeder,Excellent,100,Insulator Fault,High,2026-08-05,2026-09-26,112,Pending,Critical,Low,83.6,5,4,TDMS-WO-0025,Warning,Yes
+TDMS,TDMS-0026,OHE-0026,Loni,Hadapsar-Fursungi,Feeder,Good,78,Contact Wire Damage,Medium,2026-07-06,2026-07-26,175,Pending,High,Low,1.8,6,1,TDMS-WO-0026,Normal,Yes
+TDMS,TDMS-0027,OHE-0027,Uruli,Pune Jn-Vadgaon,Transformer,Good,78,Section Insulator Damage,Medium,2026-08-02,2026-09-26,184,In Progress,High,Medium,59.6,0,4,TDMS-WO-0027,Active Fault,Yes
+TDMS,TDMS-0028,OHE-0028,Chinchwad,Kasarwadi-Chinchwad,Section Insulator,Poor,30,Feeder Fault,High,2026-07-04,2026-09-10,78,In Progress,Low,Low,23.1,6,1,TDMS-WO-0028,Normal,No
+TDMS,TDMS-0029,OHE-0029,Loni,Dehu Road-Talegaon,Transformer,Fair,57,OHE Wire Wear,Critical,2026-07-22,2026-09-26,170,Scheduled,High,Medium,87.4,4,2,TDMS-WO-0029,Warning,No
+TDMS,TDMS-0030,OHE-0030,Uruli,Chinchwad-Akurdi,Transformer,Poor,43,Feeder Fault,Critical,2026-07-30,2026-08-15,189,Pending,Critical,High,25.4,6,11,TDMS-WO-0030,Normal,No
+TDMS,TDMS-0031,OHE-0031,Ghorpuri,Kasarwadi-Chinchwad,Transformer,Poor,43,OHE Wire Wear,Low,2026-08-02,2026-08-31,184,Scheduled,Critical,Medium,61.1,2,1,TDMS-WO-0031,Warning,No
+TDMS,TDMS-0032,OHE-0032,Vadgaon,Pune Jn-Shivajinagar,Traction Substation,Fair,62,Feeder Fault,Medium,2026-07-19,2026-08-17,203,Scheduled,Critical,Low,55.4,6,5,TDMS-WO-0032,Warning,Yes
+TDMS,TDMS-0033,OHE-0033,Uruli,Kasarwadi-Chinchwad,OHE,Poor,37,Feeder Fault,Medium,2026-08-11,2026-09-22,83,Pending,Low,Low,39.6,4,10,TDMS-WO-0033,Normal,Yes
+TDMS,TDMS-0034,OHE-0034,Manjari,Pune Jn-Ghorpuri,Transformer,Good,87,OHE Wire Wear,Medium,2026-08-04,2026-08-27,197,Scheduled,Medium,Medium,67.8,0,11,TDMS-WO-0034,Active Fault,No
+TDMS,TDMS-0035,OHE-0035,Chinchwad,Pune Jn-Shivajinagar,Section Insulator,Excellent,95,Pantograph Interaction Issue,High,2026-07-10,2026-09-14,86,Pending,Low,Low,72.6,2,1,TDMS-WO-0035,Normal,No
+TDMS,TDMS-0036,OHE-0036,Khadki,Pune Jn-Shivajinagar,OHE,Excellent,98,OHE Wire Wear,Medium,2026-07-31,2026-09-30,144,Pending,Medium,High,56.7,0,1,TDMS-WO-0036,Warning,Yes
+TDMS,TDMS-0037,OHE-0037,Fursungi,Khadki-Dapodi,Section Insulator,Poor,54,Pantograph Interaction Issue,Low,2026-08-02,2026-10-04,69,Pending,High,Medium,75.8,6,4,TDMS-WO-0037,Normal,Yes
+TDMS,TDMS-0038,OHE-0038,Vadgaon,Pune Jn-Vadgaon,Section Insulator,Fair,61,Section Insulator Damage,Medium,2026-07-16,2026-08-11,68,Pending,High,Medium,98.3,2,6,TDMS-WO-0038,Normal,Yes
+TDMS,TDMS-0039,OHE-0039,Vadgaon,Hadapsar-Fursungi,Traction Substation,Good,78,OHE Wire Wear,High,2026-08-03,2026-08-18,175,Pending,High,Medium,41.9,1,11,TDMS-WO-0039,Normal,Yes
+TDMS,TDMS-0040,OHE-0040,Vadgaon,Pune Jn Yard,Feeder,Fair,74,Insulator Fault,Low,2026-08-10,2026-10-18,135,Scheduled,Critical,Medium,51.5,3,2,TDMS-WO-0040,Normal,No
+TDMS,TDMS-0041,OHE-0041,Uruli,Pune Jn-Ghorpuri,OHE,Good,84,Section Insulator Damage,High,2026-08-06,2026-09-07,122,In Progress,High,Low,1.2,2,1,TDMS-WO-0041,Normal,Yes
+TDMS,TDMS-0042,OHE-0042,Fursungi,Chinchwad-Akurdi,Feeder,Poor,37,Insulator Fault,Low,2026-08-04,2026-09-27,126,Pending,Critical,Low,79.6,0,3,TDMS-WO-0042,Warning,No
+TDMS,TDMS-0043,OHE-0043,Vadgaon,Pune Jn-Vadgaon,Feeder,Fair,67,OHE Wire Wear,Critical,2026-07-29,2026-10-06,172,Scheduled,Low,High,52.0,5,10,TDMS-WO-0043,Warning,No
+TDMS,TDMS-0044,OHE-0044,Akurdi,Dapodi-Kasarwadi,Traction Substation,Fair,65,Pantograph Interaction Issue,Low,2026-07-13,2026-07-30,176,In Progress,Medium,Low,40.8,5,0,TDMS-WO-0044,Warning,No
+TDMS,TDMS-0045,OHE-0045,Chinchwad,Pune Jn-Ghorpuri,OHE,Good,88,Pantograph Interaction Issue,High,2026-08-05,2026-08-20,71,Pending,High,High,9.4,5,4,TDMS-WO-0045,Normal,Yes
+TDMS,TDMS-0046,OHE-0046,Akurdi,Pune Jn-Ghorpuri,Section Insulator,Fair,60,Transformer Overheating,Critical,2026-07-17,2026-08-01,67,Pending,Critical,Medium,89.0,4,1,TDMS-WO-0046,Normal,Yes
+TDMS,TDMS-0047,OHE-0047,Talegaon,Pune Jn-Vadgaon,Transformer,Fair,74,Insulator Fault,Critical,2026-07-24,2026-08-17,236,Pending,Low,Medium,39.5,2,1,TDMS-WO-0047,Normal,No
+TDMS,TDMS-0048,OHE-0048,Akurdi,Pune Jn-Shivajinagar,Section Insulator,Excellent,100,Section Insulator Damage,High,2026-07-15,2026-08-02,68,Pending,High,Medium,68.3,3,11,TDMS-WO-0048,Warning,No
+TDMS,TDMS-0049,OHE-0049,Loni,Hadapsar-Fursungi,Feeder,Good,77,Pantograph Interaction Issue,High,2026-07-15,2026-09-17,175,Scheduled,High,High,14.9,3,0,TDMS-WO-0049,Active Fault,Yes
+TDMS,TDMS-0050,OHE-0050,Pune Jn,Pune Jn-Vadgaon,Feeder,Critical,13,Insulator Fault,High,2026-07-08,2026-08-28,115,Pending,Low,High,96.2,1,3,TDMS-WO-0050,Normal,No
+TDMS,TDMS-0051,OHE-0051,Akurdi,Chinchwad-Akurdi,Feeder,Critical,20,Section Insulator Damage,High,2026-08-13,2026-10-25,98,Pending,High,Medium,17.8,0,10,TDMS-WO-0051,Warning,Yes
+TDMS,TDMS-0052,OHE-0052,Akurdi,Pune Jn-Vadgaon,OHE,Poor,31,Section Insulator Damage,Low,2026-07-07,2026-09-08,87,Pending,Critical,Medium,20.0,1,7,TDMS-WO-0052,Normal,No
+TDMS,TDMS-0053,OHE-0053,Talegaon,Pune Jn Yard,Traction Substation,Good,79,Pantograph Interaction Issue,High,2026-07-04,2026-09-14,193,Pending,High,Medium,85.9,3,0,TDMS-WO-0053,Normal,Yes
+TDMS,TDMS-0054,OHE-0054,Loni,Shivajinagar-Khadki,Transformer,Critical,18,OHE Wire Wear,High,2026-08-12,2026-09-10,171,In Progress,Medium,Medium,91.3,1,5,TDMS-WO-0054,Normal,Yes
+TDMS,TDMS-0055,OHE-0055,Pune Jn,Kasarwadi-Chinchwad,Transformer,Poor,54,Transformer Overheating,Critical,2026-07-25,2026-08-26,214,Pending,Critical,High,21.2,0,11,TDMS-WO-0055,Normal,Yes
+TDMS,TDMS-0056,OHE-0056,Ghorpuri,Dehu Road-Talegaon,OHE,Poor,54,Pantograph Interaction Issue,Medium,2026-07-20,2026-09-23,114,Pending,Medium,Medium,47.0,5,4,TDMS-WO-0056,Warning,Yes
+TDMS,TDMS-0057,OHE-0057,Fursungi,Loni-Uruli,Transformer,Fair,58,Contact Wire Damage,Medium,2026-08-03,2026-09-01,168,Pending,Critical,Medium,73.3,2,6,TDMS-WO-0057,Active Fault,Yes
+TDMS,TDMS-0058,OHE-0058,Dehu Road,Pune Jn-Vadgaon,OHE,Good,88,Transformer Overheating,High,2026-07-18,2026-08-05,117,Pending,Medium,High,87.8,4,6,TDMS-WO-0058,Normal,Yes
+TDMS,TDMS-0059,OHE-0059,Chinchwad,Manjari-Loni,Feeder,Excellent,91,Feeder Fault,Medium,2026-07-06,2026-08-30,177,Pending,High,Low,37.9,3,7,TDMS-WO-0059,Normal,Yes
+TDMS,TDMS-0060,OHE-0060,Talegaon,Dehu Road-Talegaon,Feeder,Critical,24,OHE Wire Wear,Low,2026-08-02,2026-10-04,127,Pending,Medium,Medium,51.7,5,2,TDMS-WO-0060,Warning,No
+TDMS,TDMS-0061,OHE-0061,Ghorpuri,Ghorpuri-Hadapsar,Section Insulator,Fair,71,Feeder Fault,Medium,2026-07-08,2026-09-19,69,Pending,Medium,High,74.2,5,10,TDMS-WO-0061,Active Fault,Yes
+TDMS,TDMS-0062,OHE-0062,Ghorpuri,Kasarwadi-Chinchwad,Feeder,Good,88,OHE Wire Wear,Medium,2026-07-25,2026-10-03,126,Pending,Critical,Medium,73.1,2,11,TDMS-WO-0062,Warning,No
+TDMS,TDMS-0063,OHE-0063,Fursungi,Dapodi-Kasarwadi,Traction Substation,Good,78,Feeder Fault,Medium,2026-08-12,2026-09-03,220,Scheduled,Medium,Low,78.3,5,1,TDMS-WO-0063,Normal,No
+TDMS,TDMS-0064,OHE-0064,Dapodi,Shivajinagar-Khadki,Section Insulator,Fair,72,Insulator Fault,Medium,2026-08-12,2026-10-12,73,Scheduled,Low,Low,57.0,2,9,TDMS-WO-0064,Warning,Yes
+TDMS,TDMS-0065,OHE-0065,Vadgaon,Loni-Uruli,Transformer,Good,76,OHE Wire Wear,Medium,2026-07-17,2026-09-20,233,Scheduled,Medium,High,10.5,5,9,TDMS-WO-0065,Normal,Yes
+TDMS,TDMS-0066,OHE-0066,Ghorpuri,Akurdi-Dehu Road,Traction Substation,Poor,42,Section Insulator Damage,Medium,2026-08-05,2026-09-30,190,Scheduled,High,Low,90.4,2,8,TDMS-WO-0066,Active Fault,No
+TDMS,TDMS-0067,OHE-0067,Dehu Road,Kasarwadi-Chinchwad,Section Insulator,Poor,41,Contact Wire Damage,Medium,2026-07-28,2026-09-30,96,Scheduled,Critical,Medium,86.6,0,4,TDMS-WO-0067,Normal,No
+TDMS,TDMS-0068,OHE-0068,Khadki,Khadki-Dapodi,Traction Substation,Poor,37,Transformer Overheating,High,2026-07-22,2026-09-25,158,Pending,Critical,Low,79.8,5,5,TDMS-WO-0068,Warning,Yes
+TDMS,TDMS-0069,OHE-0069,Loni,Dapodi-Kasarwadi,OHE,Fair,55,Contact Wire Damage,Medium,2026-07-07,2026-08-17,142,Pending,Medium,Low,10.0,0,10,TDMS-WO-0069,Normal,No
+TDMS,TDMS-0070,OHE-0070,Loni,Dapodi-Kasarwadi,Transformer,Fair,70,Section Insulator Damage,Critical,2026-07-17,2026-08-03,124,Pending,High,High,20.4,5,1,TDMS-WO-0070,Normal,Yes
+TDMS,TDMS-0071,OHE-0071,Loni,Hadapsar-Fursungi,Feeder,Fair,61,Feeder Fault,Critical,2026-07-30,2026-09-10,116,Pending,Medium,Medium,74.4,0,9,TDMS-WO-0071,Active Fault,Yes
+TDMS,TDMS-0072,OHE-0072,Loni,Fursungi-Manjari,OHE,Fair,68,Feeder Fault,Medium,2026-08-14,2026-09-10,97,Scheduled,High,High,2.3,1,11,TDMS-WO-0072,Warning,No
+TDMS,TDMS-0073,OHE-0073,Fursungi,Dapodi-Kasarwadi,Transformer,Excellent,94,Pantograph Interaction Issue,Medium,2026-07-01,2026-07-22,177,Pending,Critical,High,97.9,4,8,TDMS-WO-0073,Normal,Yes
+TDMS,TDMS-0074,OHE-0074,Pune Jn,Chinchwad-Akurdi,OHE,Fair,62,Pantograph Interaction Issue,High,2026-08-02,2026-08-24,102,Scheduled,High,High,37.7,6,4,TDMS-WO-0074,Active Fault,No
+TDMS,TDMS-0075,OHE-0075,Ghorpuri,Shivajinagar-Khadki,Feeder,Excellent,99,Transformer Overheating,High,2026-08-08,2026-10-03,103,In Progress,High,Low,71.9,2,6,TDMS-WO-0075,Active Fault,Yes
+TDMS,TDMS-0076,OHE-0076,Khadki,Ghorpuri-Hadapsar,Transformer,Fair,56,Feeder Fault,High,2026-08-12,2026-09-26,147,Pending,Medium,High,88.8,0,0,TDMS-WO-0076,Normal,No
+TDMS,TDMS-0077,OHE-0077,Hadapsar,Dapodi-Kasarwadi,Traction Substation,Good,86,Feeder Fault,High,2026-07-20,2026-09-05,131,In Progress,Critical,High,39.5,1,11,TDMS-WO-0077,Normal,Yes
+TDMS,TDMS-0078,OHE-0078,Loni,Ghorpuri-Hadapsar,Traction Substation,Good,86,OHE Wire Wear,High,2026-07-06,2026-09-03,188,Pending,High,Medium,31.9,6,4,TDMS-WO-0078,Normal,Yes
+TDMS,TDMS-0079,OHE-0079,Talegaon,Hadapsar-Fursungi,Transformer,Good,80,Transformer Overheating,High,2026-07-13,2026-08-29,162,In Progress,Medium,High,60.9,5,0,TDMS-WO-0079,Warning,Yes
+TDMS,TDMS-0080,OHE-0080,Dapodi,Khadki-Dapodi,Feeder,Fair,60,OHE Wire Wear,Medium,2026-08-08,2026-09-29,140,Pending,Medium,High,58.1,0,9,TDMS-WO-0080,Normal,Yes
+TDMS,TDMS-0081,OHE-0081,Ghorpuri,Pune Jn Yard,Section Insulator,Good,75,Insulator Fault,High,2026-08-09,2026-08-29,95,Pending,Low,Medium,40.9,2,7,TDMS-WO-0081,Normal,No
+TDMS,TDMS-0082,OHE-0082,Uruli,Shivajinagar-Khadki,Transformer,Critical,28,Feeder Fault,Medium,2026-07-29,2026-10-03,204,Pending,Medium,High,60.2,1,7,TDMS-WO-0082,Active Fault,Yes
+TDMS,TDMS-0083,OHE-0083,Akurdi,Pune Jn-Vadgaon,OHE,Fair,73,Contact Wire Damage,High,2026-07-06,2026-08-16,109,Pending,Low,Medium,93.5,1,0,TDMS-WO-0083,Active Fault,Yes
+TDMS,TDMS-0084,OHE-0084,Khadki,Manjari-Loni,Section Insulator,Good,78,Feeder Fault,Critical,2026-07-06,2026-07-30,98,Pending,High,High,46.8,5,9,TDMS-WO-0084,Active Fault,Yes
+TDMS,TDMS-0085,OHE-0085,Hadapsar,Kasarwadi-Chinchwad,Feeder,Fair,55,Pantograph Interaction Issue,Low,2026-07-22,2026-09-23,142,In Progress,High,High,19.7,4,7,TDMS-WO-0085,Active Fault,Yes
+TDMS,TDMS-0086,OHE-0086,Dapodi,Kasarwadi-Chinchwad,Feeder,Excellent,91,Contact Wire Damage,High,2026-07-27,2026-09-24,148,Scheduled,Medium,Medium,37.7,1,9,TDMS-WO-0086,Warning,No
+TDMS,TDMS-0087,OHE-0087,Shivajinagar,Loni-Uruli,OHE,Critical,11,Insulator Fault,Low,2026-07-02,2026-07-20,115,Pending,High,High,39.4,4,9,TDMS-WO-0087,Warning,Yes
+TDMS,TDMS-0088,OHE-0088,Manjari,Loni-Uruli,Traction Substation,Fair,71,Pantograph Interaction Issue,High,2026-07-31,2026-08-26,157,Pending,Critical,Medium,13.1,2,2,TDMS-WO-0088,Warning,No
+TDMS,TDMS-0089,OHE-0089,Kasarwadi,Pune Jn-Ghorpuri,Feeder,Poor,52,Feeder Fault,Low,2026-07-25,2026-08-09,112,Pending,High,High,16.3,0,2,TDMS-WO-0089,Normal,Yes
+TDMS,TDMS-0090,OHE-0090,Akurdi,Pune Jn-Shivajinagar,Section Insulator,Excellent,91,Transformer Overheating,Critical,2026-07-01,2026-08-01,107,Pending,High,High,68.5,3,11,TDMS-WO-0090,Normal,No
+TDMS,TDMS-0091,OHE-0091,Pune Jn,Pune Jn-Ghorpuri,Transformer,Fair,69,Section Insulator Damage,Low,2026-07-05,2026-07-25,161,In Progress,Medium,Medium,33.9,1,6,TDMS-WO-0091,Normal,Yes
+TDMS,TDMS-0092,OHE-0092,Vadgaon,Pune Jn-Shivajinagar,Section Insulator,Fair,58,Section Insulator Damage,Critical,2026-07-21,2026-09-16,92,Pending,Critical,Medium,95.5,1,5,TDMS-WO-0092,Warning,Yes
+TDMS,TDMS-0093,OHE-0093,Manjari,Pune Jn Yard,Section Insulator,Critical,17,Feeder Fault,High,2026-08-02,2026-09-17,71,Pending,Medium,Medium,24.4,6,3,TDMS-WO-0093,Normal,No
+TDMS,TDMS-0094,OHE-0094,Uruli,Pune Jn Yard,Traction Substation,Fair,66,Transformer Overheating,High,2026-08-07,2026-10-19,171,Pending,Medium,Low,9.9,4,7,TDMS-WO-0094,Normal,No
+TDMS,TDMS-0095,OHE-0095,Dehu Road,Shivajinagar-Khadki,Section Insulator,Fair,69,Insulator Fault,High,2026-07-20,2026-09-17,91,Pending,Critical,Low,75.4,0,9,TDMS-WO-0095,Warning,No
+TDMS,TDMS-0096,OHE-0096,Vadgaon,Fursungi-Manjari,Traction Substation,Good,88,Insulator Fault,High,2026-07-14,2026-09-03,195,Pending,High,Medium,88.1,5,0,TDMS-WO-0096,Normal,Yes
+TDMS,TDMS-0097,OHE-0097,Kasarwadi,Pune Jn-Vadgaon,Traction Substation,Good,75,OHE Wire Wear,Critical,2026-08-13,2026-09-27,183,Scheduled,High,Low,27.8,4,6,TDMS-WO-0097,Normal,Yes
+TDMS,TDMS-0098,OHE-0098,Dapodi,Khadki-Dapodi,Feeder,Fair,58,Insulator Fault,Medium,2026-07-21,2026-08-08,122,Scheduled,High,Medium,20.2,6,11,TDMS-WO-0098,Active Fault,No
+TDMS,TDMS-0099,OHE-0099,Manjari,Hadapsar-Fursungi,Feeder,Fair,60,Section Insulator Damage,High,2026-07-15,2026-08-03,176,In Progress,High,High,18.6,5,3,TDMS-WO-0099,Active Fault,Yes
+TDMS,TDMS-0100,OHE-0100,Chinchwad,Dapodi-Kasarwadi,OHE,Excellent,93,Insulator Fault,Low,2026-07-20,2026-09-09,106,Scheduled,Medium,High,52.2,2,3,TDMS-WO-0100,Normal,No

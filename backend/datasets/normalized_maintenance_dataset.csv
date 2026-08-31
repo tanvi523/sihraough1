@@ -1,0 +1,10 @@
+source_system,task_id,asset_id,city,track_section,asset_type,asset_condition,health_score,issue_type,severity,last_maintenance_date,next_due_date,estimated_duration_minutes,maintenance_status,asset_criticality,safety_impact,location_km,recent_fault_count,failure_history_count,work_order_id,fault_status,power_shutdown_required,train_id,train_name,train_type,train_priority,train_start_time,train_end_time,direction
+SMMS,SMMS-TSK-001,SIG-PUNE-0101,Pune,Pune Jn-Shivajinagar,Axle Counter,Poor,32.5,Axle Counter Reset Error,Critical,2026-06-15,2026-08-25,90,Overdue,Critical,Critical,2.4,4,6,WO-SIG-9801,Normal,No,,,,,,,
+SMMS,SMMS-TSK-002,SIG-SHIV-0204,Pune,Shivajinagar-Khadki,Panel Interlocking,Poor,38.0,Relay Contact Resistance High,Critical,2026-06-20,2026-08-28,120,Overdue,Critical,High,5.1,3,5,WO-SIG-9802,Normal,No,,,,,,,
+SMMS,SMMS-TSK-003,SIG-KHAD-0302,Pune,Khadki-Dapodi,LC Gate Interlocking,Fair,55.0,Boom Barrier Sensor Lag,High,2026-07-05,2026-09-02,75,Pending,High,High,8.3,2,3,WO-SIG-9803,Normal,No,,,,,,,
+TDMS,TDMS-TSK-001,TRC-PUNE-0101,Pune,Pune Jn-Shivajinagar,OHE Contact Wire,Poor,30.0,Contact Wire Diameter Wear >20%,Critical,2026-06-10,2026-08-25,120,Overdue,Critical,Critical,2.1,5,7,WO-TRC-7701,High Alert,Yes,,,,,,,
+TDMS,TDMS-TSK-002,TRC-SHIV-0202,Pune,Shivajinagar-Khadki,Section Insulator,Poor,36.0,Section Insulator Flashover Sparking,Critical,2026-06-14,2026-08-27,90,Overdue,Critical,High,4.8,4,5,WO-TRC-7702,High Alert,Yes,,,,,,,
+TDMS,TDMS-TSK-003,TRC-KHAD-0303,Pune,Khadki-Dapodi,Cantilever Assembly,Fair,56.0,Stay Arm Tube Corrosion,High,2026-07-08,2026-09-03,80,Pending,High,High,7.9,2,3,WO-TRC-7703,Normal,Yes,,,,,,,
+TMS,,TRK-PUNE-01,Pune,Pune Jn-Shivajinagar,Track,Good,88.0,,,,,,,,,,,,,,TRN-12127,Mumbai-Pune Intercity SF,Superfast,High,06:45,07:15,UP
+TMS,,TRK-SHIV-02,Pune,Shivajinagar-Khadki,Track,85.0,,,,,,,,,,,,,,TRN-12128,Pune-Mumbai Intercity SF,Superfast,High,07:30,07:55,DOWN
+TMS,,TRK-KHAD-03,Pune,Khadki-Dapodi,Track,90.0,,,,,,,,,,,,,,TRN-11008,Deccan Express,Express,High,08:15,08:40,UP

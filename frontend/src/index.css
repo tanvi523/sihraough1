@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #060B16;
+    color: #F1F5F9;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+    background-image: 
+      radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.04) 0%, transparent 40%),
+      radial-gradient(circle at 85% 20%, rgba(249, 115, 22, 0.03) 0%, transparent 40%),
+      radial-gradient(circle at 50% 85%, rgba(16, 185, 129, 0.03) 0%, transparent 50%),
+      linear-gradient(180deg, #070D1C 0%, #050914 100%);
+    background-attachment: fixed;
+  }
+}
+
+/* Indian Railways theme badges and accents */
+.ir-navy-panel {
+  background: rgba(14, 23, 42, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(31, 46, 77, 0.8);
+}
+
+.ir-navy-panel:hover {
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
+.ir-glow-card {
+  background: linear-gradient(135deg, rgba(19, 29, 51, 0.9) 0%, rgba(11, 17, 32, 0.95) 100%);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(31, 46, 77, 0.9);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ir-glow-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(56, 189, 248, 0.4);
+  box-shadow: 0 14px 35px -10px rgba(56, 189, 248, 0.15);
+}
+
+.glass-input {
+  background: rgba(11, 17, 32, 0.85);
+  border: 1px solid rgba(31, 46, 77, 0.9);
+  color: #F1F5F9;
+  transition: all 0.2s ease-in-out;
+}
+
+.glass-input:focus {
+  border-color: #38BDF8;
+  outline: none;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
+  background: rgba(15, 23, 42, 0.95);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080E1D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F2E4D;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38BDF8;
+}
+
+/* Keyframes & Animations */
+@keyframes signal-ping {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes float-subtle {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-signal-pulse {
+  animation: signal-ping 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(31, 46, 77, 0.3) 0%, rgba(56, 189, 248, 0.15) 50%, rgba(31, 46, 77, 0.3) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+.animate-float {
+  animation: float-subtle 4s ease-in-out infinite;
+}
+
+/* Data Table Modern Enterprise Styling */
+.table-container {
+  overflow-x: auto;
+  border-radius: 1rem;
+  border: 1px solid #1F2E4D;
+  background: #0B1120;
+}
+
+.table-header-cell {
+  padding: 0.875rem 1rem;
+  font-size: 0.6875rem;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #94A3B8;
+  background: #111B30;
+  border-bottom: 1px solid #1F2E4D;
+}
+
+.table-body-row {
+  transition: all 0.15s ease-in-out;
+  border-bottom: 1px solid rgba(31, 46, 77, 0.5);
+}
+
+.table-body-row:hover {
+  background: rgba(19, 29, 51, 0.55);
+}

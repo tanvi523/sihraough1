@@ -1,0 +1,101 @@
+Source_System,Task_ID,Asset_ID,City,Track_Section,Asset_Type,Asset_Condition,Health_Score,Issue_Type,Severity,Last_Maintenance_Date,Next_Due_Date,Estimated_Duration_Minutes,Maintenance_Status,Asset_Criticality,Safety_Impact,Location_KM,Recent_Fault_Count,Failure_History_Count,Work_Order_ID
+SMMS,TASK-0001,SIG-PUNE-0001,Khadki,Pune Jn-Shivajinagar,Panel Interlocking,Good,77,Cable Fault,High,2026-08-10,2027-02-06,30,Scheduled,Low,None,7.65,4,13,WO-2026-1434
+SMMS,TASK-0002,SIG-PUNE-0002,Loni,Dehu Road-Talegaon,Level Crossing Interlocking,Fair,50,Axle Counter Reset Error,High,2026-08-21,2026-12-19,120,Completed,Medium,Medium,3.58,3,4,WO-2026-6881
+SMMS,TASK-0003,SIG-PUNE-0003,Dehu Road,Shivajinagar-Khadki,Panel Interlocking,Fair,53,Communication Link Failure,Low,2026-01-26,2026-07-25,120,Scheduled,High,Medium,23.14,6,10,WO-2026-2307
+SMMS,TASK-0004,SIG-PUNE-0004,Khadki,Manjari-Loni,Block Instrument,Fair,61,Cable Fault,Medium,2025-12-14,2026-03-14,30,In Progress,Low,None,5.72,3,7,WO-2026-4598
+SMMS,TASK-0005,SIG-PUNE-0005,Shivajinagar,Dehu Road-Talegaon,EI (Electronic Interlocking) Server,Excellent,95,Communication Link Failure,Low,2025-12-15,2026-06-13,120,Pending,Medium,Medium,5.0,1,4,WO-2026-9830
+SMMS,TASK-0006,SIG-PUNE-0006,Loni,Manjari-Loni,Route Relay Interlocking (RRI),Good,74,Interlocking Logic Fault,Medium,2025-09-22,2025-10-22,45,In Progress,High,High,20.87,3,9,WO-2026-8668
+SMMS,TASK-0007,SIG-PUNE-0007,Pune Jn,Dapodi-Kasarwadi,Block Proving Axle Counter (BPAC),Poor,49,Power Supply Interruption,High,2026-02-19,2026-03-21,90,Scheduled,Medium,Medium,34.02,6,8,WO-2026-9317
+SMMS,TASK-0008,SIG-PUNE-0008,Talegaon,Akurdi-Dehu Road,Axle Counter,Good,75,Interlocking Logic Fault,Critical,2026-05-27,2026-06-26,120,Scheduled,Low,Low,30.76,6,10,WO-2026-4923
+SMMS,TASK-0009,SIG-PUNE-0009,Akurdi,Khadki-Dapodi,Point Machine,Poor,51,Point Failure,Critical,2026-05-28,2026-07-27,45,In Progress,Critical,High,9.28,6,15,WO-2026-7932
+SMMS,TASK-0010,SIG-PUNE-0010,Chinchwad,Ghorpuri-Hadapsar,LED Signal Unit,Critical,20,Track Circuit Failure,Medium,2026-05-20,2026-09-17,30,Completed,Low,None,20.59,1,10,WO-2026-4608
+SMMS,TASK-0011,SIG-PUNE-0011,Ghorpuri,Shivajinagar-Khadki,Track Circuit,Excellent,86,No Fault Found (Routine Check),Medium,2026-05-19,2026-07-18,90,In Progress,Medium,Low,25.32,4,13,WO-2026-8744
+SMMS,TASK-0012,SIG-PUNE-0012,Vadgaon,Loni-Uruli,Track Circuit,Excellent,98,Track Circuit Failure,Medium,2026-04-25,2026-05-25,30,In Progress,Medium,Low,8.7,1,9,WO-2026-8350
+SMMS,TASK-0013,SIG-PUNE-0013,Loni,Chinchwad-Akurdi,Block Instrument,Fair,52,LED Lamp Failure,High,2026-06-06,2026-07-06,15,In Progress,High,Medium,33.91,6,9,WO-2026-3724
+SMMS,TASK-0014,SIG-PUNE-0014,Vadgaon,Pune Jn Yard,Track Circuit,Poor,53,Signal Aspect Failure,Low,2025-08-30,2025-12-28,90,Overdue,High,High,14.81,5,13,WO-2026-8973
+SMMS,TASK-0015,SIG-PUNE-0015,Chinchwad,Ghorpuri-Hadapsar,Track Circuit,Critical,18,Earthing Fault,Medium,2026-02-05,2026-03-07,15,Scheduled,Medium,Low,1.99,4,5,WO-2026-4044
+SMMS,TASK-0016,SIG-PUNE-0016,Ghorpuri,Dehu Road-Talegaon,LED Signal Unit,Excellent,92,Preventive Maintenance Due,Medium,2026-07-12,2026-08-11,180,In Progress,High,High,32.71,1,11,WO-2026-6147
+SMMS,TASK-0017,SIG-PUNE-0017,Dehu Road,Manjari-Loni,Axle Counter,Fair,59,LED Lamp Failure,Medium,2025-10-05,2025-11-04,240,In Progress,High,Medium,2.56,1,9,WO-2026-5345
+SMMS,TASK-0018,SIG-PUNE-0018,Fursungi,Khadki-Dapodi,Track Circuit,Good,75,LED Lamp Failure,High,2026-08-24,2026-11-22,15,In Progress,High,Medium,32.86,1,5,WO-2026-2891
+SMMS,TASK-0019,SIG-PUNE-0019,Dapodi,Pune Jn-Ghorpuri,Block Instrument,Fair,72,Track Circuit Failure,Low,2026-07-19,2026-10-17,240,Completed,Critical,High,3.23,3,7,WO-2026-1722
+SMMS,TASK-0020,SIG-PUNE-0020,Hadapsar,Kasarwadi-Chinchwad,Block Proving Axle Counter (BPAC),Critical,5,Earthing Fault,Medium,2026-08-25,2026-12-23,15,Completed,Critical,High,19.1,6,11,WO-2026-3426
+SMMS,TASK-0021,SIG-PUNE-0021,Dapodi,Shivajinagar-Khadki,Block Instrument,Good,71,Track Circuit Failure,Low,2026-01-03,2026-02-02,120,Pending,Critical,High,34.08,5,7,WO-2026-4878
+SMMS,TASK-0022,SIG-PUNE-0022,Kasarwadi,Loni-Uruli,Colour Light Signal,Good,80,Axle Counter Reset Error,Critical,2026-08-06,2026-10-05,90,Completed,High,High,30.53,6,13,WO-2026-4644
+SMMS,TASK-0023,SIG-PUNE-0023,Uruli,Fursungi-Manjari,Block Instrument,Poor,52,Relay Malfunction,Low,2026-08-01,2026-09-30,180,Completed,Critical,High,12.29,4,10,WO-2026-9785
+SMMS,TASK-0024,SIG-PUNE-0024,Pune Jn,Dapodi-Kasarwadi,Block Instrument,Good,78,Signal Aspect Failure,Low,2026-04-08,2026-07-07,120,Scheduled,Critical,High,13.48,4,7,WO-2026-5173
+SMMS,TASK-0025,SIG-PUNE-0025,Loni,Pune Jn-Shivajinagar,Integrated Power Supply (IPS),Critical,17,Battery Backup Degradation,High,2026-08-07,2026-10-06,120,Scheduled,Critical,High,21.81,5,6,WO-2026-5920
+SMMS,TASK-0026,SIG-PUNE-0026,Loni,Hadapsar-Fursungi,LED Signal Unit,Fair,67,Cable Fault,Low,2026-08-04,2026-12-02,45,In Progress,Medium,Low,10.64,1,7,WO-2026-6279
+SMMS,TASK-0027,SIG-PUNE-0027,Uruli,Pune Jn-Vadgaon,Block Proving Axle Counter (BPAC),Good,85,Axle Counter Reset Error,Critical,2025-11-23,2025-12-23,90,Scheduled,High,High,3.27,6,9,WO-2026-6085
+SMMS,TASK-0028,SIG-PUNE-0028,Chinchwad,Kasarwadi-Chinchwad,Colour Light Signal,Excellent,100,Preventive Maintenance Due,High,2025-10-05,2026-02-02,180,Pending,High,High,17.3,1,3,WO-2026-1090
+SMMS,TASK-0029,SIG-PUNE-0029,Loni,Dehu Road-Talegaon,Axle Counter,Poor,47,Interlocking Logic Fault,Medium,2026-06-10,2026-08-09,30,Scheduled,High,High,33.25,3,12,WO-2026-9270
+SMMS,TASK-0030,SIG-PUNE-0030,Uruli,Chinchwad-Akurdi,Panel Interlocking,Poor,39,Power Supply Interruption,High,2026-07-21,2026-10-19,240,In Progress,Medium,Low,24.97,1,5,WO-2026-6502
+SMMS,TASK-0031,SIG-PUNE-0031,Ghorpuri,Kasarwadi-Chinchwad,Axle Counter,Good,74,Earthing Fault,Low,2026-03-29,2026-07-27,120,Scheduled,Medium,Low,29.15,3,12,WO-2026-1320
+SMMS,TASK-0032,SIG-PUNE-0032,Vadgaon,Pune Jn-Shivajinagar,Route Relay Interlocking (RRI),Good,82,No Fault Found (Routine Check),Critical,2026-03-31,2026-09-27,60,Scheduled,Medium,Medium,1.02,2,12,WO-2026-7624
+SMMS,TASK-0033,SIG-PUNE-0033,Uruli,Kasarwadi-Chinchwad,Data Logger,Fair,62,Preventive Maintenance Due,Medium,2025-09-11,2025-10-11,180,Pending,Low,Low,13.27,1,8,WO-2026-6355
+SMMS,TASK-0034,SIG-PUNE-0034,Manjari,Pune Jn-Ghorpuri,Signal Cable Route,Critical,13,Power Supply Interruption,High,2026-04-26,2026-05-26,15,Overdue,Medium,Low,27.34,5,5,WO-2026-1508
+SMMS,TASK-0035,SIG-PUNE-0035,Chinchwad,Pune Jn-Shivajinagar,Data Logger,Good,74,LED Lamp Failure,High,2026-06-13,2026-08-12,240,In Progress,High,Medium,21.21,5,6,WO-2026-3683
+SMMS,TASK-0036,SIG-PUNE-0036,Khadki,Pune Jn-Shivajinagar,Block Instrument,Fair,62,Communication Link Failure,Critical,2025-12-08,2026-01-07,60,Pending,Critical,High,27.87,4,4,WO-2026-6688
+SMMS,TASK-0037,SIG-PUNE-0037,Fursungi,Khadki-Dapodi,Integrated Power Supply (IPS),Fair,50,No Fault Found (Routine Check),Medium,2026-05-06,2026-06-05,180,Overdue,High,High,24.76,3,5,WO-2026-9548
+SMMS,TASK-0038,SIG-PUNE-0038,Vadgaon,Pune Jn-Vadgaon,LED Signal Unit,Poor,43,Power Supply Interruption,Medium,2026-01-01,2026-01-31,90,Pending,Medium,Medium,19.94,5,11,WO-2026-6511
+SMMS,TASK-0039,SIG-PUNE-0039,Vadgaon,Hadapsar-Fursungi,Axle Counter,Fair,61,Axle Counter Reset Error,Low,2026-01-19,2026-07-18,90,Scheduled,Medium,Low,3.0,5,11,WO-2026-9004
+SMMS,TASK-0040,SIG-PUNE-0040,Vadgaon,Pune Jn Yard,Level Crossing Interlocking,Poor,27,Power Supply Interruption,Low,2026-08-18,2026-10-17,90,In Progress,Medium,Medium,14.89,5,13,WO-2026-6419
+SMMS,TASK-0041,SIG-PUNE-0041,Uruli,Pune Jn-Ghorpuri,Block Instrument,Good,73,Earthing Fault,Low,2025-10-29,2026-04-27,45,In Progress,Medium,Medium,34.32,6,9,WO-2026-5853
+SMMS,TASK-0042,SIG-PUNE-0042,Fursungi,Chinchwad-Akurdi,Block Instrument,Excellent,89,Power Supply Interruption,Low,2025-09-25,2026-03-24,90,In Progress,Low,Low,3.59,0,9,WO-2026-5658
+SMMS,TASK-0043,SIG-PUNE-0043,Vadgaon,Pune Jn-Vadgaon,Route Relay Interlocking (RRI),Good,71,Power Supply Interruption,Critical,2026-04-30,2026-05-30,30,Scheduled,Low,None,5.31,6,15,WO-2026-5978
+SMMS,TASK-0044,SIG-PUNE-0044,Akurdi,Dapodi-Kasarwadi,Integrated Power Supply (IPS),Poor,44,Preventive Maintenance Due,High,2025-12-22,2026-06-20,180,Scheduled,Medium,Medium,10.69,4,4,WO-2026-2625
+SMMS,TASK-0045,SIG-PUNE-0045,Chinchwad,Pune Jn-Ghorpuri,Block Proving Axle Counter (BPAC),Excellent,92,Cable Fault,Medium,2025-11-17,2025-12-17,180,Scheduled,High,High,1.14,2,6,WO-2026-8438
+SMMS,TASK-0046,SIG-PUNE-0046,Akurdi,Pune Jn-Ghorpuri,Signal Cable Route,Poor,43,Battery Backup Degradation,High,2025-12-08,2026-04-07,30,Scheduled,High,High,28.93,0,0,WO-2026-3718
+SMMS,TASK-0047,SIG-PUNE-0047,Talegaon,Pune Jn-Vadgaon,Point Machine,Fair,59,Earthing Fault,Medium,2026-01-15,2026-07-14,240,Scheduled,High,High,25.71,4,8,WO-2026-1423
+SMMS,TASK-0048,SIG-PUNE-0048,Akurdi,Pune Jn-Shivajinagar,Signal Cable Route,Fair,58,Preventive Maintenance Due,Low,2025-11-26,2026-03-26,240,Overdue,Low,Low,22.22,3,4,WO-2026-8700
+SMMS,TASK-0049,SIG-PUNE-0049,Loni,Hadapsar-Fursungi,Route Relay Interlocking (RRI),Fair,55,Track Circuit Failure,Medium,2026-05-09,2026-08-07,180,Pending,High,High,3.08,2,7,WO-2026-2899
+SMMS,TASK-0050,SIG-PUNE-0050,Pune Jn,Pune Jn-Vadgaon,LED Signal Unit,Excellent,96,Preventive Maintenance Due,High,2026-07-15,2026-11-12,15,Completed,High,High,15.33,5,12,WO-2026-2989
+SMMS,TASK-0051,SIG-PUNE-0051,Akurdi,Chinchwad-Akurdi,Block Instrument,Fair,67,Communication Link Failure,Low,2025-10-26,2026-02-23,30,In Progress,Low,Low,17.81,2,8,WO-2026-8905
+SMMS,TASK-0052,SIG-PUNE-0052,Akurdi,Pune Jn-Vadgaon,Integrated Power Supply (IPS),Good,76,Preventive Maintenance Due,Medium,2025-11-06,2025-12-06,90,Pending,Critical,High,32.7,4,8,WO-2026-1042
+SMMS,TASK-0053,SIG-PUNE-0053,Talegaon,Pune Jn Yard,EI (Electronic Interlocking) Server,Good,87,LED Lamp Failure,Medium,2026-06-07,2026-12-04,180,Scheduled,Medium,Low,34.33,1,10,WO-2026-7274
+SMMS,TASK-0054,SIG-PUNE-0054,Loni,Shivajinagar-Khadki,Route Relay Interlocking (RRI),Poor,47,Axle Counter Reset Error,Medium,2026-08-03,2026-10-02,240,Overdue,Low,Low,30.44,6,13,WO-2026-2633
+SMMS,TASK-0055,SIG-PUNE-0055,Pune Jn,Kasarwadi-Chinchwad,LED Signal Unit,Poor,29,Point Failure,Medium,2026-01-11,2026-04-11,180,In Progress,Critical,High,33.39,5,12,WO-2026-9864
+SMMS,TASK-0056,SIG-PUNE-0056,Ghorpuri,Dehu Road-Talegaon,Block Proving Axle Counter (BPAC),Fair,59,Relay Malfunction,High,2026-04-08,2026-05-08,30,Scheduled,High,Medium,1.61,6,6,WO-2026-5806
+SMMS,TASK-0057,SIG-PUNE-0057,Fursungi,Loni-Uruli,Axle Counter,Good,83,Preventive Maintenance Due,High,2025-11-29,2026-01-28,45,Pending,High,Medium,17.42,4,6,WO-2026-4804
+SMMS,TASK-0058,SIG-PUNE-0058,Dehu Road,Pune Jn-Vadgaon,Block Instrument,Fair,64,Power Supply Interruption,High,2025-11-17,2025-12-17,240,Overdue,Critical,High,22.36,3,7,WO-2026-8484
+SMMS,TASK-0059,SIG-PUNE-0059,Chinchwad,Manjari-Loni,EI (Electronic Interlocking) Server,Fair,57,Communication Link Failure,Medium,2026-06-19,2026-09-17,90,Completed,Critical,High,9.61,4,14,WO-2026-1803
+SMMS,TASK-0060,SIG-PUNE-0060,Talegaon,Dehu Road-Talegaon,Data Logger,Poor,32,Battery Backup Degradation,Low,2026-01-04,2026-03-05,30,Overdue,High,High,27.6,0,9,WO-2026-6977
+SMMS,TASK-0061,SIG-PUNE-0061,Ghorpuri,Ghorpuri-Hadapsar,Route Relay Interlocking (RRI),Poor,30,Relay Malfunction,Low,2026-06-01,2026-08-30,90,Pending,Medium,Medium,33.86,2,7,WO-2026-2886
+SMMS,TASK-0062,SIG-PUNE-0062,Ghorpuri,Kasarwadi-Chinchwad,Signal Cable Route,Critical,27,Battery Backup Degradation,High,2026-03-20,2026-09-16,120,Completed,Medium,Medium,18.78,3,8,WO-2026-5295
+SMMS,TASK-0063,SIG-PUNE-0063,Fursungi,Dapodi-Kasarwadi,Block Proving Axle Counter (BPAC),Good,70,Preventive Maintenance Due,Critical,2026-06-12,2026-09-10,60,In Progress,High,High,31.83,2,12,WO-2026-7689
+SMMS,TASK-0064,SIG-PUNE-0064,Dapodi,Shivajinagar-Khadki,Colour Light Signal,Good,85,Point Failure,Low,2026-05-31,2026-07-30,180,Scheduled,High,High,20.56,5,7,WO-2026-7797
+SMMS,TASK-0065,SIG-PUNE-0065,Vadgaon,Loni-Uruli,Block Instrument,Excellent,96,Relay Malfunction,Medium,2025-12-27,2026-03-27,30,Overdue,Medium,Medium,2.12,2,5,WO-2026-3001
+SMMS,TASK-0066,SIG-PUNE-0066,Ghorpuri,Akurdi-Dehu Road,Block Proving Axle Counter (BPAC),Fair,50,Signal Aspect Failure,High,2025-12-31,2026-03-01,60,In Progress,Medium,Low,28.46,1,6,WO-2026-3417
+SMMS,TASK-0067,SIG-PUNE-0067,Dehu Road,Kasarwadi-Chinchwad,Axle Counter,Fair,55,Point Failure,High,2025-09-11,2025-11-10,15,Scheduled,High,High,0.55,2,2,WO-2026-3076
+SMMS,TASK-0068,SIG-PUNE-0068,Khadki,Khadki-Dapodi,Level Crossing Interlocking,Good,81,Interlocking Logic Fault,Medium,2026-04-17,2026-10-14,60,Overdue,Low,Low,16.03,0,0,WO-2026-8847
+SMMS,TASK-0069,SIG-PUNE-0069,Loni,Dapodi-Kasarwadi,Level Crossing Interlocking,Poor,39,Point Failure,Critical,2026-02-09,2026-08-08,45,Pending,High,High,13.33,4,12,WO-2026-5831
+SMMS,TASK-0070,SIG-PUNE-0070,Loni,Dapodi-Kasarwadi,Signal Cable Route,Poor,52,Battery Backup Degradation,High,2026-06-07,2026-08-06,180,Scheduled,Medium,Medium,28.96,3,9,WO-2026-2557
+SMMS,TASK-0071,SIG-PUNE-0071,Loni,Hadapsar-Fursungi,Block Proving Axle Counter (BPAC),Good,74,Battery Backup Degradation,Critical,2025-10-02,2025-11-01,30,Overdue,High,High,28.41,4,4,WO-2026-6400
+SMMS,TASK-0072,SIG-PUNE-0072,Loni,Fursungi-Manjari,EI (Electronic Interlocking) Server,Fair,74,Communication Link Failure,High,2025-09-24,2025-12-23,90,Scheduled,High,Medium,5.42,3,6,WO-2026-2773
+SMMS,TASK-0073,SIG-PUNE-0073,Fursungi,Dapodi-Kasarwadi,Signal Cable Route,Good,77,Axle Counter Reset Error,Medium,2026-06-12,2026-12-09,15,In Progress,High,High,1.01,2,6,WO-2026-6567
+SMMS,TASK-0074,SIG-PUNE-0074,Pune Jn,Chinchwad-Akurdi,EI (Electronic Interlocking) Server,Good,82,Point Failure,Low,2026-07-19,2026-08-18,30,Pending,Medium,Medium,15.88,1,6,WO-2026-6105
+SMMS,TASK-0075,SIG-PUNE-0075,Ghorpuri,Shivajinagar-Khadki,Axle Counter,Good,89,Signal Aspect Failure,High,2026-01-15,2026-05-15,180,Scheduled,Medium,Medium,7.54,4,5,WO-2026-6655
+SMMS,TASK-0076,SIG-PUNE-0076,Khadki,Ghorpuri-Hadapsar,Block Proving Axle Counter (BPAC),Fair,65,Interlocking Logic Fault,High,2025-09-21,2025-11-20,180,Overdue,Low,None,10.55,1,3,WO-2026-5186
+SMMS,TASK-0077,SIG-PUNE-0077,Hadapsar,Dapodi-Kasarwadi,Colour Light Signal,Fair,63,Cable Fault,Low,2026-05-28,2026-07-27,120,In Progress,Low,None,16.09,0,5,WO-2026-8033
+SMMS,TASK-0078,SIG-PUNE-0078,Loni,Ghorpuri-Hadapsar,Point Machine,Good,80,Cable Fault,High,2026-07-11,2026-11-08,120,Completed,Critical,High,15.25,3,11,WO-2026-2288
+SMMS,TASK-0079,SIG-PUNE-0079,Talegaon,Hadapsar-Fursungi,Track Circuit,Good,75,Point Failure,Medium,2025-10-26,2026-04-24,60,Overdue,Medium,Low,8.27,1,5,WO-2026-4232
+SMMS,TASK-0080,SIG-PUNE-0080,Dapodi,Khadki-Dapodi,Axle Counter,Critical,20,LED Lamp Failure,Medium,2026-06-13,2026-12-10,240,In Progress,Critical,High,30.25,5,10,WO-2026-3473
+SMMS,TASK-0081,SIG-PUNE-0081,Ghorpuri,Pune Jn Yard,Level Crossing Interlocking,Fair,58,Preventive Maintenance Due,Low,2026-05-15,2026-06-14,90,Scheduled,Low,Low,29.11,0,10,WO-2026-2479
+SMMS,TASK-0082,SIG-PUNE-0082,Uruli,Shivajinagar-Khadki,Level Crossing Interlocking,Critical,18,Battery Backup Degradation,Low,2026-07-04,2026-11-01,45,Overdue,Medium,Medium,34.38,0,8,WO-2026-3827
+SMMS,TASK-0083,SIG-PUNE-0083,Akurdi,Pune Jn-Vadgaon,Level Crossing Interlocking,Fair,69,Cable Fault,Medium,2026-01-20,2026-05-20,180,Pending,High,Medium,27.62,5,10,WO-2026-2079
+SMMS,TASK-0084,SIG-PUNE-0084,Khadki,Manjari-Loni,Block Instrument,Good,89,No Fault Found (Routine Check),Low,2025-10-09,2026-04-07,45,Overdue,Medium,Medium,4.51,5,6,WO-2026-6072
+SMMS,TASK-0085,SIG-PUNE-0085,Hadapsar,Kasarwadi-Chinchwad,Block Proving Axle Counter (BPAC),Poor,48,Battery Backup Degradation,Critical,2025-10-15,2026-02-12,120,Pending,Low,None,11.96,6,13,WO-2026-4145
+SMMS,TASK-0086,SIG-PUNE-0086,Dapodi,Kasarwadi-Chinchwad,Point Machine,Good,73,Interlocking Logic Fault,High,2026-05-25,2026-06-24,120,Pending,High,High,5.4,1,10,WO-2026-3712
+SMMS,TASK-0087,SIG-PUNE-0087,Shivajinagar,Loni-Uruli,Route Relay Interlocking (RRI),Fair,57,LED Lamp Failure,Medium,2026-04-15,2026-06-14,60,Pending,Critical,High,12.87,4,11,WO-2026-8564
+SMMS,TASK-0088,SIG-PUNE-0088,Manjari,Loni-Uruli,Axle Counter,Poor,50,Preventive Maintenance Due,Low,2026-01-04,2026-02-03,240,Pending,High,Medium,24.9,4,5,WO-2026-5670
+SMMS,TASK-0089,SIG-PUNE-0089,Kasarwadi,Pune Jn-Ghorpuri,Level Crossing Interlocking,Critical,4,No Fault Found (Routine Check),Medium,2025-12-20,2026-04-19,120,Overdue,Medium,Medium,17.57,1,7,WO-2026-2337
+SMMS,TASK-0090,SIG-PUNE-0090,Akurdi,Pune Jn-Shivajinagar,Route Relay Interlocking (RRI),Critical,26,Earthing Fault,High,2025-11-11,2026-01-10,15,Pending,High,Medium,26.56,3,10,WO-2026-1086
+SMMS,TASK-0091,SIG-PUNE-0091,Pune Jn,Pune Jn-Ghorpuri,Track Circuit,Poor,42,Earthing Fault,Medium,2026-04-02,2026-05-02,90,Overdue,Low,Low,22.36,4,11,WO-2026-2029
+SMMS,TASK-0092,SIG-PUNE-0092,Vadgaon,Pune Jn-Shivajinagar,Block Proving Axle Counter (BPAC),Fair,57,Earthing Fault,Low,2026-04-05,2026-05-05,120,Pending,Low,None,18.32,2,3,WO-2026-9618
+SMMS,TASK-0093,SIG-PUNE-0093,Manjari,Pune Jn Yard,Colour Light Signal,Fair,61,Power Supply Interruption,High,2026-02-27,2026-03-29,120,In Progress,High,High,4.67,2,10,WO-2026-6546
+SMMS,TASK-0094,SIG-PUNE-0094,Uruli,Pune Jn Yard,Block Proving Axle Counter (BPAC),Good,74,Point Failure,High,2026-04-20,2026-05-20,90,Overdue,Critical,High,32.67,4,10,WO-2026-9897
+SMMS,TASK-0095,SIG-PUNE-0095,Dehu Road,Shivajinagar-Khadki,Signal Cable Route,Fair,59,Track Circuit Failure,High,2025-09-22,2025-12-21,90,Pending,Medium,Medium,26.02,3,8,WO-2026-4060
+SMMS,TASK-0096,SIG-PUNE-0096,Vadgaon,Fursungi-Manjari,Signal Cable Route,Fair,52,Earthing Fault,Medium,2026-04-06,2026-10-03,45,Scheduled,Medium,Low,11.48,2,6,WO-2026-8305
+SMMS,TASK-0097,SIG-PUNE-0097,Kasarwadi,Pune Jn-Vadgaon,Route Relay Interlocking (RRI),Good,81,Preventive Maintenance Due,Critical,2026-01-16,2026-02-15,30,In Progress,Medium,Low,33.35,1,10,WO-2026-8179
+SMMS,TASK-0098,SIG-PUNE-0098,Dapodi,Khadki-Dapodi,Track Circuit,Poor,36,Track Circuit Failure,Medium,2026-06-15,2026-07-15,45,In Progress,Critical,High,15.54,0,9,WO-2026-3255
+SMMS,TASK-0099,SIG-PUNE-0099,Manjari,Hadapsar-Fursungi,Block Proving Axle Counter (BPAC),Good,73,Signal Aspect Failure,High,2026-05-11,2026-11-07,180,Overdue,Low,Low,24.64,1,10,WO-2026-5678
+SMMS,TASK-0100,SIG-PUNE-0100,Chinchwad,Dapodi-Kasarwadi,Axle Counter,Poor,39,Cable Fault,Critical,2026-04-13,2026-05-13,120,In Progress,High,High,31.2,6,8,WO-2026-3852
