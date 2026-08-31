@@ -15,6 +15,7 @@ export const BlockGanttChart = ({ blocks = [], trains = [], onSelectBlock }) => 
 
   const [selectedBlockDetail, setSelectedBlockDetail] = useState(null);
   const [filterDept, setFilterDept] = useState('ALL');
+  const [showEmptySections, setShowEmptySections] = useState(false);
 
   // Convert "HH:MM" to percentage of 24 hours (0% to 100%)
   const timeToPercent = (timeStr) => {
@@ -32,6 +33,18 @@ export const BlockGanttChart = ({ blocks = [], trains = [], onSelectBlock }) => 
 
   return (
     <div className="p-5 rounded-2xl bg-[#0E172A] border border-[#1F2E4D] shadow-xl space-y-4">
+      {/* Legend above header */}
+      <div className="flex items-center space-x-4 text-[11px] pb-2 border-b border-[#1F2E4D]/40">
+        <div className="flex items-center space-x-1.5">
+          <div className="w-2.5 h-2.5 rounded bg-gradient-to-r from-purple-500 to-indigo-500 border border-purple-400" />
+          <span className="text-slate-400 font-medium">Purple: Multi-Dept Block (Signal + Traction)</span>
+        </div>
+        <div className="flex items-center space-x-1.5">
+          <div className="w-2.5 h-2.5 rounded bg-gradient-to-r from-amber-500 to-orange-500 border border-amber-400" />
+          <span className="text-slate-400 font-medium">Orange: OHE Traction Power Block (25kV Isolated)</span>
+        </div>
+      </div>
+
       {/* Gantt Header & Filters */}
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 border-b border-[#1F2E4D] pb-4">
         <div>
@@ -44,21 +57,33 @@ export const BlockGanttChart = ({ blocks = [], trains = [], onSelectBlock }) => 
           </p>
         </div>
 
-        <div className="flex items-center space-x-2 text-xs">
-          <span className="text-slate-400 font-medium">Filter Subsystem:</span>
-          {['ALL', 'SMMS', 'TDMS', 'TMS'].map((dept) => (
-            <button
-              key={dept}
-              onClick={() => setFilterDept(dept)}
-              className={`px-2.5 py-1 rounded-lg text-xs font-semibold border transition-all ${
-                filterDept === dept
-                  ? 'bg-sky-500/20 text-sky-400 border-sky-500/40 shadow-sm shadow-sky-500/20'
-                  : 'bg-[#131D33] text-slate-400 border-[#1F2E4D] hover:text-white'
-              }`}
-            >
-              {dept}
-            </button>
-          ))}
+        <div className="flex flex-wrap items-center gap-4 text-xs">
+          <label className="flex items-center space-x-1.5 text-slate-300 font-medium cursor-pointer">
+            <input
+              type="checkbox"
+              checked={showEmptySections}
+              onChange={(e) => setShowEmptySections(e.target.checked)}
+              className="rounded bg-[#131D33] border-[#1F2E4D] text-sky-500 focus:ring-0 focus:ring-offset-0 cursor-pointer w-4 h-4"
+            />
+            <span>Show empty sections</span>
+          </label>
+
+          <div className="flex items-center space-x-2">
+            <span className="text-slate-400 font-medium">Filter Subsystem:</span>
+            {['ALL', 'SMMS', 'TDMS', 'TMS'].map((dept) => (
+              <button
+                key={dept}
+                onClick={() => setFilterDept(dept)}
+                className={`px-2.5 py-1 rounded-lg text-xs font-semibold border transition-all ${
+                  filterDept === dept
+                    ? 'bg-sky-500/20 text-sky-400 border-sky-500/40 shadow-sm shadow-sky-500/20'
+                    : 'bg-[#131D33] text-slate-400 border-[#1F2E4D] hover:text-white'
+                }`}
+              >
+                {dept}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -85,6 +110,10 @@ export const BlockGanttChart = ({ blocks = [], trains = [], onSelectBlock }) => 
                 b.track_section.toLowerCase() === section.toLowerCase()
               );
 
+              if (!showEmptySections && secBlocks.length === 0) {
+                return null;
+              }
+
               return (
                 <div key={section} className="flex items-center h-16 relative group hover:bg-[#131D33]/30 transition-colors">
                   {/* Section Label */}
@@ -96,7 +125,7 @@ export const BlockGanttChart = ({ blocks = [], trains = [], onSelectBlock }) => 
                   </div>
 
                   {/* 24h Lane Bar */}
-                  <div className="flex-1 h-12 bg-[#0B1120] border border-[#1F2E4D] rounded-xl relative overflow-hidden">
+                  <div className="flex-1 h-12 bg-[#0B1120] border border-[#1F2E4D] rounded-xl relative">
                     {/* Hour grid vertical markings */}
                     <div className="absolute inset-0 grid grid-cols-12 pointer-events-none">
                       {Array.from({ length: 12 }).map((_, i) => (
@@ -123,6 +152,9 @@ export const BlockGanttChart = ({ blocks = [], trains = [], onSelectBlock }) => 
                       const isJoint = (block.departments_involved || []).length > 1;
                       const hasPower = block.power_shutdown;
 
+                      const shortLabel = '#' + (block.block_code.match(/\d{3}$/)?.[0] || block.block_code.slice(-3));
+                      const showLabel = widthPct >= 5.5;
+
                       return (
                         <div
                           key={block.block_code}
@@ -130,7 +162,7 @@ export const BlockGanttChart = ({ blocks = [], trains = [], onSelectBlock }) => 
                             setSelectedBlockDetail(block);
                             if (onSelectBlock) onSelectBlock(block);
                           }}
-                          className={`absolute top-1 bottom-1 rounded-lg px-2 flex items-center justify-between cursor-pointer transition-all duration-200 hover:scale-y-105 z-10 border shadow-lg ${
+                          className={`absolute top-1 bottom-1 rounded-lg px-2 flex items-center justify-center cursor-pointer transition-all duration-200 hover:scale-y-105 z-10 border shadow-lg group ${
                             isJoint
                               ? 'bg-gradient-to-r from-purple-600/80 to-indigo-600/80 border-purple-400 text-white hover:border-purple-300 shadow-purple-500/20'
                               : hasPower
@@ -141,17 +173,27 @@ export const BlockGanttChart = ({ blocks = [], trains = [], onSelectBlock }) => 
                             left: `${startPct}%`,
                             width: `${widthPct}%`
                           }}
-                          title={`${block.block_code} (${block.start_time} - ${block.end_time})`}
                         >
-                          <div className="flex items-center space-x-1.5 truncate">
-                            {hasPower && <Zap className="w-3 h-3 text-amber-300 shrink-0" />}
-                            <span className="text-[11px] font-bold tracking-tight truncate">
-                              {block.block_code}
-                            </span>
+                          {showLabel && (
+                            <div className="flex items-center space-x-1 overflow-hidden truncate">
+                              {hasPower && <Zap className="w-3 h-3 text-amber-300 shrink-0" />}
+                              <span className="text-[11px] font-bold tracking-tight truncate">
+                                {shortLabel}
+                              </span>
+                            </div>
+                          )}
+
+                          {/* Hover Tooltip */}
+                          <div className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:flex flex-col gap-1 bg-[#0F172A] border border-[#1F2E4D] text-xs text-slate-200 rounded-xl p-3 shadow-2xl z-50 min-w-[200px] whitespace-normal">
+                            <div className="font-bold text-sky-400 font-mono text-[11px]">{block.block_code}</div>
+                            <div className="font-semibold text-white text-[11px]">{block.track_section}</div>
+                            <div className="text-[10px] text-slate-300 font-mono mt-0.5">
+                              Time: {block.start_time} - {block.end_time}
+                            </div>
+                            <div className="text-[10px] text-slate-400 font-mono">
+                              Duration: {block.duration_minutes} min
+                            </div>
                           </div>
-                          <span className="text-[9px] font-mono opacity-90 hidden sm:inline">
-                            {block.duration_minutes}m
-                          </span>
                         </div>
                       );
                     })}
